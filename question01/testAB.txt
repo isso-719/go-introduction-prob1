@@ -1,0 +1,3 @@
+Switch,32970
+PS5,80500
+Xbox Series S,32978
