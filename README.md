@@ -50,6 +50,13 @@
 >
 ```
 
+ファイルが存在しなければエラー
+```bash
+% go run . hoge.txt  
+エラー： open hoge.txt: no such file or directory
+exit status 1
+```
+
 # 設問2 Section 5のプログラムの改善点を考察せよ
 特に以下の観点を考慮すること。
 
