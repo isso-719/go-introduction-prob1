@@ -142,8 +142,8 @@ step05
     │       ├── accountbook.go
     │       ├── item.go
     │       └── summary.go
-    ├── handle
-    │   └── handle.go
+    ├── handler
+    │   └── handler.go
     ├── infra
     │   ├── accountbook.go
     │   ├── item.go
