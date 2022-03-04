@@ -84,6 +84,8 @@ accountbook.go:159:10: Error return value of `cw.Write` is not checked (errcheck
 
 ここで、`accountbook.go` の 159 行目で `cw.Write` が返す error チェックがされていない。
 
+これではソフトウェアの信頼性が損なわれる。
+
 よって、以下のように書き換えるべきである。
 
 ```go
